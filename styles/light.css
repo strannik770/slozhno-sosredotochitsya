@@ -15,9 +15,10 @@
 
   --heading-main-color: #353430;
   --heading-accent-color: #353430;
+  --text-color: #353430;
 
   --button-color: #353430;
-  --text-color: #353430;
+  --button-color-rgba: 53,52,48;
   --link-shadow-color: #ff8dcb;
   --display-element: none;
 }
@@ -37,9 +38,10 @@
 
   --heading-main-color: #353430;
   --heading-accent-color: #353430;
+  --text-color: #353430;
 
   --button-color: #353430;
-  --text-color: #353430;
+  --button-color-rgba: 53,52,48;
   --link-shadow-color: #ff8dcb;
   --display-element: none;
 
@@ -61,6 +63,7 @@
     --heading-accent-color: #353430;
 
     --button-color: #353430;
+    --button-color-rgba: 53,52,48;
     --text-color: #353430;
     --link-shadow-color: #ff8dcb;
     --display-element: none;

@@ -7,7 +7,7 @@
   font-family: var(--main-font);
   color: var(--heading-main-color, #ff0070);
   background-image: url("../images/cover-image-dark.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -105,7 +105,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--button-color, #ff0070);
+  border: 1px solid rgba(var(--button-color-rgba, 255,0,112),0.4);
 }
 
 .header__theme-menu-button:focus {
@@ -409,8 +409,8 @@
   }
 
   .images__box {
-    grid-template-columns: minmax(229px, 315px) minmax(230px, 315px) minmax(229px, 315px);
-    grid-template-rows: minmax(192px, 260px) minmax(230px, 315px) minmax(318px, 428px);
+    grid-template-columns: minmax(minmax(min-content,229px), 315px) minmax(minmax(min-content,230px), 315px) minmax(minmax(min-content,230px), 315px);
+    grid-template-rows: minmax(minmax(min-content,192px), 260px) minmax(minmax(min-content,230px), 315px) minmax(minmax(min-content,318px), 428px);
     gap: 20px;
   }
 
@@ -438,6 +438,12 @@
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+  }
+
+  /* footer */
+
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
 }
@@ -469,9 +475,11 @@
     grid-template-columns: 315px 1fr;
   }
 
+
   .attention {
-    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content min-content min-content;
+    column-gap: 20px;
+    grid-auto-flow: column;
   }
 
   .attention__title {

@@ -15,9 +15,10 @@
 
   --heading-main-color: #ff0070;
   --heading-accent-color: #000028;
+  --text-color: #f1b2ce;
 
   --button-color: #ff0070;
-  --text-color: #f1b2ce;
+  --button-color-rgba: 255,0,112;
   --link-shadow-color: #ff0070;
   --display-element: block;
 }
@@ -37,9 +38,10 @@
 
   --heading-main-color: #ff0070;
   --heading-accent-color: #000028;
+  --text-color: #f1b2ce;
 
   --button-color: #ff0070;
-  --text-color: #f1b2ce;
+  --button-color-rgba: 255,0,112;
   --link-shadow-color: #ff0070;
   --display-element: block;
   
