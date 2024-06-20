@@ -3,26 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-light {
-  /* Переменные светлой темы */
-  --main-font: "IBM Plex Mono";
-
-  --bg-color: #fff1f7;
-  --bg-accent-color: #ff8dcb;
-
-  --head-color: #ffc2e6;
-  --head-shadow-color: #ff0070;
-
-  --heading-main-color: #353430;
-  --heading-accent-color: #353430;
-  --text-color: #353430;
-
-  --button-color: #353430;
-  --button-color-rgba: 53,52,48;
-  --link-shadow-color: #ff8dcb;
-  --display-element: none;
-}
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,

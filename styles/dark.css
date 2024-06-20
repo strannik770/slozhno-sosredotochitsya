@@ -3,26 +3,6 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-dark {
-  /* Дублируем переменные для тёмной темы */
-  --main-font: "IBM Plex Mono";
-
-  --bg-color: #000028;
-  --bg-accent-color: #ff0070;
-
-  --head-color:#db00ff; 
-  --head-shadow-color: #ff0070;
-
-  --heading-main-color: #ff0070;
-  --heading-accent-color: #000028;
-  --text-color: #f1b2ce;
-
-  --button-color: #ff0070;
-  --button-color-rgba: 255,0,112;
-  --link-shadow-color: #ff0070;
-  --display-element: block;
-}
-
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
