@@ -161,10 +161,6 @@
   color: var(--heading-accent-color, #000028);
 }
 
-/* .main__subtitle-margin {
-  margin-block-end: 10px;
-} */
-
 .main__text {
   /* padding-block-end: 10px; */
   font-family: var(--main-font, sans-serif);
@@ -427,7 +423,6 @@
   .focus {
     grid-template-columns: 315px 1fr;
   }
-
 
   .attention {
     grid-template-columns: 1fr 1fr 1fr;
