@@ -332,7 +332,7 @@
     padding-block-end: 80px;
   }
 
-  .main__title-width-modify {
+  .main__title-modify {
     width: 30%;
   }
 
@@ -412,8 +412,8 @@
 
   /* main*/
 
-  .main__title-width-modify {
-    width: 100%;
+  .main__title-modify {
+    grid-column: span 3;
    }
 
   .focus {
@@ -423,12 +423,10 @@
   .attention {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
-    grid-auto-flow: column;
   }
 
   .attention__article {
     grid-template-rows: min-content;
-    grid-row-start: 2;
   }
 
 }
